@@ -7,7 +7,7 @@ import BackendSkills from "../backendSkills/BackendSkills";
 export default function Skills(){
     return (
         <div className="skillsSection">
-            <FrontendSkills className="fSec"/>
+            <FrontendSkills/>
             <BackendSkills/>
         </div>
     )

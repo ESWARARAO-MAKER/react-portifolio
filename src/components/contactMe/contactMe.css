@@ -1,9 +1,10 @@
+
 .contanctMeDesc{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    height: 80vh;
+    height: calc(100vh-70px);
 }
 .contactImg{
     height: 250px;

@@ -9,36 +9,34 @@
     width:100%;
     height:70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
+    position: sticky;
 }
 .logo{
     color:white;
     font-size: 20px;
     text-decoration: none;
-    margin-left:20px;
     cursor: pointer;
 }
 .logo:hover{
     font-weight: 800;
     color: aqua;
 }
-.navbarLinks{
+.navbarLinks ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin-right: 20px;
 }
-.navbarLinks li{
+.navLink li a{
     color:white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     font-size: 20px;
     text-decoration: none;
 }
-.navbarLinks li:hover{
+.navbarLinks li a:hover{
     font-weight: 800;
     color: aqua;
 }
@@ -50,4 +48,36 @@
     visibility: hidden;
     opacity: 0;
     cursor: pointer;
+}
+.toggleBtn{
+    display: none;
+}
+
+@media (max-width:480px) {
+    .navMobSec{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbarLinks{
+        display: none;
+    }
+    .toggleBtn{
+        display: flex;
+        position: absolute;
+        top:15px;
+        right:5px;
+    }
+    .hideNavbar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        top:70px;
+        background-color: black;
+
+    }
+    .hideNavbar ul{
+        list-style: none;
+    }
 }

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    height: calc(100vh-70px);
 }
 .aboutDesc{
     display: flex;
@@ -85,6 +85,12 @@
         flex-direction: column;
     }
     .webdev:hover{
+        transform: none;
+    }
+    .socialMedia a:hover{
+        transform: none;
+    }
+    .starMeOnGithubBtn button:hover{
         transform: none;
     }
 }
