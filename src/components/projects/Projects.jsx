@@ -17,19 +17,19 @@ export default function Projects(){
 
             <div className="projectsList">
                 <div className="project">
-                    <a href="#" target="_blank"><h2>Calculator Using React</h2></a>
+                    <a href="https://eswar-portifilio.netlify.app/"><h2>Calculator Using React</h2></a>
                     <p>HTML, CSS and React</p>
                 </div>
                 <div className="project">
-                    <a href="#" target="_blank"><h2>TodoList Dynamic Application</h2></a>
+                    <a href="https://eswar-portifilio.netlify.app/"><h2>TodoList Dynamic Application</h2></a>
                     <p>HTML, CSS and JavaScript</p>
                 </div>
                 <div className="project">
-                    <a href="#" target="_blank"><h2>Responsive Restaurent Application</h2></a>
+                    <a href="https://eswar-portifilio.netlify.app/"><h2>Responsive Restaurent Application</h2></a>
                     <p>HTML, CSS and JavaScript</p>
                 </div>
                 <div className="project">
-                    <a href="#" target="_blank"><h2>Tourism Static Site Application</h2></a>
+                    <a href="https://eswar-portifilio.netlify.app/"><h2>Tourism Static Site Application</h2></a>
                     <p>HTML and CSS</p>
                 </div>
                 
