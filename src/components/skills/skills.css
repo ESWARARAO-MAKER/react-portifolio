@@ -1,0 +1,7 @@
+.skillsSection{
+    display: flex;
+    flex-direction: column;
+}
+.fSec{
+    margin-bottom: 20px;
+}

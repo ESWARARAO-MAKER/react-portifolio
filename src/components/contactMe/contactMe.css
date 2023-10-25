@@ -1,0 +1,68 @@
+.contanctMeDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 80vh;
+}
+.contactImg{
+    height: 250px;
+    width:350px;
+    border-radius: 50%;
+}
+.conDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.conDesc h2,p{
+    text-align: center;
+}
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px
+}
+.socialMedia a{
+    margin-right: 10px;
+    font-size: 55px;
+    color:black
+}
+.resume{
+    height: 35px;
+    width: 120px;
+    background-color: aqua;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.resume:hover{
+    transform: scale(1.2);
+}
+.addressContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+.addressDesc h2,p{
+    text-align: center;
+}
+.addressImg img{
+    height: 100%;
+    width:100%;
+}
+
+
+@media screen and (max-width:480px){
+    .contanctMeDesc{
+        display: flex;
+        flex-direction: column;
+    }
+    .addressContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

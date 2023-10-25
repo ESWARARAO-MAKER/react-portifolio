@@ -1,0 +1,87 @@
+.bottomSectionDesc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.aboutDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.aboutDesc>span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.aboutDesc h1,p{
+    text-align: center;
+}
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px
+}
+.socialMedia a{
+    margin-right: 10px;
+    font-size: 55px;
+    color: black;
+}
+.socialMedia a:hover{
+    transform: scale(1.2);
+    color: aqua;
+}
+.starMeOnGithubBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.starMeOnGithubBtn button{
+    border: none;
+    background-color: aqua;
+    color:black;
+    height: 35px;
+    width: 125px;
+    border-radius: 5px;
+}
+.starMeOnGithubBtn button:hover{
+    transform: scale(1.2);
+}
+.aboutImg{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+
+}
+.whatIDo{
+    text-align: center;
+}
+.bottomWhatIDo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.webdev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding:10px;
+    margin: 20px;
+}
+.webdev:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width:480px){
+    .bottomSectionDesc{
+        display: flex;
+        flex-direction: column;
+    }
+}

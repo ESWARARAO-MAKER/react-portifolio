@@ -1,0 +1,72 @@
+.education{
+    background-color: azure;
+    height: 100%;
+}
+.educationDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin: 10px;
+    height: 80vh;
+}
+.educationImg{
+    height: calc(100%-70px);
+}
+.eduDesc h1,h4{
+    text-align: center;
+}
+.compImg{
+    text-align: center;
+}
+.eduContainer{
+    background-color: white;
+    margin: 50px;
+    border-radius: 15px;
+    padding:10px
+}
+.eduHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certication{
+    text-align: center;
+}
+.eduCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.eduContainer{
+    background-color: azure;
+}
+.eduContainer:hover{
+    transform: scale(1.2);
+}
+.certificationContainer{
+    background-color: azure;
+    margin: 50px;
+    border-radius: 15px;
+    padding:10px
+}
+.certificationContainer:hover{
+    transform: scale(1.2);
+}
+.certicationHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    .educationDesc{
+        display: flex;
+        flex-direction: column;
+    }
+}

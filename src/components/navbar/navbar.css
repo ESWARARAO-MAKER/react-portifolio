@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbarSection{
+    padding:0px;
+    margin: 0px;
+    top:0px;
+    background-color: black;
+    color:white;
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left:10px;
+    cursor: pointer;
+}
+.logo:hover{
+    font-weight: 800;
+    color: aqua;
+}
+.navbarLinks{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navbarLinks li{
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbarLinks li:hover{
+    font-weight: 800;
+    color: aqua;
+}
+.navBtn{
+    background-color: transparent;
+    color:white;
+    border-width: 0px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+}

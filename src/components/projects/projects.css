@@ -1,0 +1,64 @@
+.projectsDes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+    height: 80vh;
+    width: 100vw;
+}
+.des h2,p{
+    text-align: center;
+}
+.projImg{
+    height: 100%;
+    width: 100%;
+}
+.projectsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project{
+    background-color: grey;
+    color:white;
+    border-radius: 15px;
+    padding:10px;
+    margin: 30px;
+    text-align: center;
+}
+.project:hover{
+    transform: scale(1.2);
+}
+.project a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.showMoreBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin:20px;
+}
+.showMoreBtn button{
+    background-color: aqua;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 35px;
+    width:120px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.showMoreBtn button:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width:480px){
+    .projectsDes{
+        display: flex;
+        flex-direction: column;
+    }
+}
