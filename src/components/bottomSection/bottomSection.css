@@ -84,4 +84,7 @@
         display: flex;
         flex-direction: column;
     }
+    .webdev:hover{
+        transform: none;
+    }
 }
